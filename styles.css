@@ -206,7 +206,7 @@
 .main__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  align-items: left;
   justify-self: center;
   margin: 0 auto;
   height: 90vh;
@@ -224,7 +224,7 @@
 }
 
 .main__content h1 {
-  font-size: 4rem;
+  font-size: 2.5rem;
   background-color: #ff8177;
   background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
   background-size: 100%;
@@ -300,6 +300,7 @@
 #main__img {
   height: 80%;
   width: 80%;
+  border-radius: 50%;
 }
 
 /* Mobile Responsive */
